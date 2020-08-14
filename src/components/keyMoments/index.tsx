@@ -9,8 +9,9 @@ import styles from './styles';
 
 interface IProps {
   commentary: ICommentary[];
+  onSelectMoment: (id: string) => void;
 }
-const KeyMoments = ({commentary}: IProps) => {
+const KeyMoments = ({commentary, onSelectMoment}: IProps) => {
   const [isCollapsed, setIsCollapsed] = useState(true);
 
   return (
@@ -23,9 +24,13 @@ const KeyMoments = ({commentary}: IProps) => {
       <Collapsible collapsed={isCollapsed}>
         {commentary.map(item =>
           item.keyMoment !== null ? (
-            <Typography key={item.id} variant="body">
-              {item.keyMoment}
-            </Typography>
+            <TouchableOpacity
+              activeOpacity={1}
+              onPress={() => onSelectMoment(item.id)}>
+              <Typography key={item.id} variant="body">
+                {item.keyMoment}
+              </Typography>
+            </TouchableOpacity>
           ) : null,
         )}
       </Collapsible>
