@@ -8,6 +8,7 @@ interface IStyles {
 export default StyleSheet.create<IStyles>({
   container: {
     paddingVertical: 10,
+    height: 50,
   } as ViewStyle,
   heading: {
     textAlign: 'center',

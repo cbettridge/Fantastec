@@ -1,5 +1,5 @@
 import React from 'react';
-import {FlatList} from 'react-native';
+import {FlatList, View} from 'react-native';
 
 import CommentaryListItem from '../commentaryListItem';
 import {ICommentary} from '../../types';
@@ -11,7 +11,7 @@ interface IProps {
 const CommentaryList = ({commentary}: IProps) => {
   return (
     <FlatList
-      style={styles.list}
+      contentContainerStyle={styles.list}
       data={commentary}
       keyExtractor={item => item.id}
       renderItem={({item}) => {
