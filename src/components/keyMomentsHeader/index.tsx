@@ -16,7 +16,7 @@ const KeyMomentsHeader = ({isCollapsed, setIsCollapsed}: IProps) => {
       activeOpacity={1}
       style={styles.header}
       onPress={() => setIsCollapsed(!isCollapsed)}>
-      <Typography variant="body">Key Moments</Typography>
+      <Typography variant="h2">Key Moments</Typography>
       {isCollapsed === true && <DownArrowIcon />}
       {isCollapsed === false && <UpArrowIcon />}
     </TouchableOpacity>

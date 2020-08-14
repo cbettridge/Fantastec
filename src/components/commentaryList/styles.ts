@@ -6,7 +6,7 @@ interface IStyles {
 
 export default StyleSheet.create<IStyles>({
   list: {
-    paddingVertical: 20,
+    paddingTop: 20,
     paddingLeft: 20,
     paddingRight: 70,
   },

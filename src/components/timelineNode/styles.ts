@@ -1,8 +1,6 @@
 import {StyleSheet, ViewStyle, TextStyle} from 'react-native';
 
-import {colors, shadow} from '../../styles';
-
-const circleSize = 30;
+import {colors, shadow, minuteCircleSize} from '../../styles';
 
 interface IStyles {
   container: ViewStyle;
@@ -20,9 +18,9 @@ export default StyleSheet.create<IStyles>({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: colors.accentGreen,
-    width: circleSize,
-    height: circleSize,
-    borderRadius: circleSize / 2,
+    width: minuteCircleSize,
+    height: minuteCircleSize,
+    borderRadius: minuteCircleSize / 2,
     ...shadow,
   },
   minute: {

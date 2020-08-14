@@ -21,13 +21,22 @@ const KeyMoments = ({commentary, onSelectMoment}: IProps) => {
         setIsCollapsed={setIsCollapsed}
       />
 
-      <Collapsible collapsed={isCollapsed}>
+      <Collapsible collapsed={isCollapsed} style={styles.collapsable}>
         {commentary.map(item =>
           item.keyMoment !== null ? (
             <TouchableOpacity
               activeOpacity={1}
+              style={styles.keyMomentItem}
               onPress={() => onSelectMoment(item.id)}>
-              <Typography key={item.id} variant="body">
+              <View style={styles.minuteCircle}>
+                <Typography variant="body" style={styles.minute}>
+                  {item.minute}
+                </Typography>
+              </View>
+              <Typography
+                key={item.id}
+                variant="body"
+                style={styles.keyMomentText}>
                 {item.keyMoment}
               </Typography>
             </TouchableOpacity>

@@ -15,3 +15,5 @@ export const shadow = {
   shadowRadius: 2,
   elevation: 4,
 };
+
+export const minuteCircleSize = 30;

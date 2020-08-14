@@ -6,7 +6,7 @@ import styles from './styles';
 interface IProps {
   children?: string;
   style?: TextStyle;
-  variant: 'h1' | 'body';
+  variant: 'h1' | 'h2' | 'body';
 }
 const Typography = ({children, style, variant}: IProps) => {
   return <Text style={[styles[variant], style]}>{children}</Text>;
