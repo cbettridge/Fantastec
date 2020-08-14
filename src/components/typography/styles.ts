@@ -1,6 +1,6 @@
 import {TextStyle, StyleSheet} from 'react-native';
 
-import colors from '../../styles/colors';
+import {colors} from '../../styles';
 
 interface IStyles {
   h1: TextStyle;

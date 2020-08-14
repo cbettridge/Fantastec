@@ -27,8 +27,11 @@ const CommentaryList = ({commentary, highlightedItemId}: IProps) => {
       contentContainerStyle={styles.list}
       data={commentary}
       keyExtractor={item => item.id}
-      renderItem={({item}) => {
-        return <CommentaryListItem item={item} />;
+      renderItem={({item, index}) => {
+        const isNotLastItem = index < commentary.length - 1;
+        return (
+          <CommentaryListItem item={item} renderTimeline={isNotLastItem} />
+        );
       }}
       initialNumToRender={commentary.length}
     />
