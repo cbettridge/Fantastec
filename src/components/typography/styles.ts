@@ -6,6 +6,7 @@ interface IStyles {
   h1: TextStyle;
   h2: TextStyle;
   body: TextStyle;
+  bodyBold: TextStyle;
 }
 
 const color = colors.text;
@@ -23,6 +24,11 @@ export default StyleSheet.create<IStyles>({
   },
   body: {
     fontSize: 16,
+    color,
+  },
+  bodyBold: {
+    fontSize: 16,
+    fontWeight: 'bold',
     color,
   },
 });

@@ -9,12 +9,14 @@ import TimelineNode from '../timelineNode';
 interface IProps {
   item: ICommentary;
   renderTimeline: boolean;
+  isHighlighted: boolean;
 }
-const CommentaryListItem = ({item, renderTimeline}: IProps) => {
+const CommentaryListItem = ({item, renderTimeline, isHighlighted}: IProps) => {
+  const commentaryVariant = isHighlighted === true ? 'bodyBold' : 'body';
   return (
     <View style={styles.container}>
       <TimelineNode minute={item.minute} renderTimeline={renderTimeline} />
-      <Typography variant="body" style={styles.commentary}>
+      <Typography variant={commentaryVariant} style={styles.commentary}>
         {item.commentary}
       </Typography>
     </View>
