@@ -10,6 +10,6 @@ export default StyleSheet.create<IStyles>({
     flexDirection: 'row',
   },
   commentary: {
-    paddingBottom: 20,
+    paddingBottom: 30,
   },
 });

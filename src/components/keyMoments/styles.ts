@@ -27,8 +27,6 @@ export default StyleSheet.create<IStyles>({
     padding: 5,
     marginVertical: 2,
     borderRadius: 5,
-    borderWidth: 1,
-    borderColor: colors.accentGreen,
     backgroundColor: colors.white,
     ...shadow,
     width: 200,

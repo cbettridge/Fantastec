@@ -25,6 +25,7 @@ const KeyMoments = ({commentary, onSelectMoment}: IProps) => {
         {commentary.map(item =>
           item.keyMoment !== null ? (
             <TouchableOpacity
+              key={item.id}
               activeOpacity={1}
               style={styles.keyMomentItem}
               onPress={() => onSelectMoment(item.id)}>
