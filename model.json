@@ -33,5 +33,89 @@
          "minute": "29",
          "commentary": "Pochettino's bravery has paid off. He kept two up top, even though Moura was about to go off a few minutes ago, Tottenham's strike duo combined there brilliantly - Kane carving through United's shambolic lines with a neat pass, and Moura doing the rest.",
          "keyMoment": null
+     },
+     {
+         "id": "6",
+         "minute": "35",
+         "commentary": "Andrew Robertson (Liverpool) wins a free kick on the left wing.",
+         "keyMoment": null
+     },
+     {
+         "id": "7",
+         "minute": "40",
+         "commentary": "Foul by Roberto Firmino (Liverpool).",
+         "keyMoment": null
+     },
+     {
+         "id": "8",
+         "minute": "45",
+         "commentary": "Georginio Wijnaldum (Liverpool) wins a free kick in the defensive half.",
+         "keyMoment": null
+     },
+     {
+         "id": "9",
+         "minute": "47",
+         "commentary": "Corner, Liverpool. Conceded by Davinson Sánchez.",
+         "keyMoment": null
+     },
+     {
+         "id": "10",
+         "minute": "49",
+         "commentary": "Attempt blocked. Andrew Robertson (Liverpool) right footed shot from outside the box is blocked.",
+         "keyMoment": null
+     },
+     {
+         "id": "11",
+         "minute": "53",
+         "commentary": "Offside, Tottenham Hotspur. Danny Rose tries a through ball, but Harry Kane is caught offside.",
+         "keyMoment": null
+     },
+     {
+         "id": "12",
+         "minute": "54",
+         "commentary": "Attempt saved. Roberto Firmino (Liverpool) right footed shot from the right side of the six yard box is saved in the bottom right corner. Assisted by Trent Alexander-Arnold.",
+         "keyMoment": null
+     },
+     {
+         "id": "13",
+         "minute": "58",
+         "commentary": "Attempt saved. Georginio Wijnaldum (Liverpool) header from the centre of the box is saved in the centre of the goal. Assisted by Fabinho with a cross.",
+         "keyMoment": null
+     },
+     {
+         "id": "14",
+         "minute": "65",
+         "commentary": "Substitution, Tottenham Hotspur. Tanguy Ndombele replaces Harry Winks.",
+         "keyMoment": "Substitution"
+     },
+     {
+         "id": "15",
+         "minute": "68",
+         "commentary": "Harry Kane (Tottenham Hotspur) wins a free kick on the left wing.",
+         "keyMoment": null
+     },
+     {
+         "id": "16",
+         "minute": "72",
+         "commentary": "Attempt missed. Mohamed Salah (Liverpool) left footed shot from the right side of the box misses to the right. Assisted by Trent Alexander-Arnold with a cross following a corner.",
+         "keyMoment": null
+     },
+     {
+         "id": "17",
+         "minute": "78",
+         "commentary": "Fabinho (Liverpool) wins a free kick in the attacking half.",
+         "keyMoment": null
+     },
+     {
+         "id": "18",
+         "minute": "85",
+         "commentary": "Corner, Liverpool. Conceded by Danny Rose.",
+         "keyMoment": null
+     },
+     {
+         "id": "19",
+         "minute": "90",
+         "commentary": "Match ends, Liverpool 2, Tottenham Hotspur 1.",
+         "keyMoment": "Full Time"
      }
  ]
